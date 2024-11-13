@@ -1,0 +1,31 @@
+h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.carousel-container {
+    margin-top: 50px;
+    /* Espacio superior para el contenedor del carrusel */
+    margin-bottom: 2rem;
+    /* Espacio inferior */
+}
+
+.carousel {
+    margin: 0 auto;
+    /* Centra el carrusel horizontalmente */
+}
+
+.carousel-image {
+    width: 100%;
+    /* Imagen ocupa todo el ancho del contenedor */
+    height: 320px;
+    /* Ajusta la altura según tus necesidades */
+    object-fit: cover;
+    /* Mantiene la proporción de la imagen */
+}
+
+.legend {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+}

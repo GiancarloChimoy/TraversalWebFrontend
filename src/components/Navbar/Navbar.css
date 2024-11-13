@@ -1,0 +1,38 @@
+/* src/Navbar.css */
+/* src/components/Navbar/Navbar.css */
+.navbar {
+  background-color:  #040423; /* Azul noche */
+  padding: 1.3rem;
+  display: flex;
+  justify-content: center; /* Centra los elementos */
+  align-items: center;
+  position: fixed;
+  top: 0; /* Posición en la parte superior de la página */
+  left: 0; /* Alinea el navbar al lado izquierdo */
+  width: 100%; /* Asegura que el navbar cubra todo el ancho de la página */
+  z-index: 1000;
+  border-radius: 3px; /* Opcional: bordes redondeados */
+}
+
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #4da6ff; /* Azul más claro para el efecto hover */
+}
+
+  

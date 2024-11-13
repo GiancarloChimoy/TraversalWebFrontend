@@ -1,0 +1,63 @@
+/* src/components/pages/Inicio.css */
+/*  PRODUCTOS */
+
+.products-section {
+    padding: 0.4rem;
+    text-align: center;
+}
+
+.products-list {
+    display: flex;
+    justify-content: space-around;
+    /* Espacia los productos */
+    flex-wrap: wrap;
+    /* Permite que los productos se ajusten en filas */
+}
+
+.product-card {
+    background-color: #fff;
+    /* Fondo blanco para las tarjetas */
+    border-radius: 5px;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    width: 200px;
+    
+    /* Ajusta el ancho según sea necesario */
+}
+
+.product-image {
+    width: 200px;
+    /* Establece un ancho fijo */
+    height: 150px;
+    /* Establece una altura fija */
+    object-fit: cover;
+    /* Ajusta la imagen para cubrir el área sin deformarse */
+    border-radius: 5px;
+    /* Opcional: bordes redondeados */
+}
+
+.view-more {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #040423;
+    /* Azul noche */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.products-section-container {
+    background-color: rgba(4, 4, 35, 0.1);
+    /* Color azul noche con 70% de opacidad */
+    padding: 2rem;
+    /* Espaciado interno */
+    border-radius: 10px;
+    /* Bordes redondeados opcionales */
+    margin: 2rem auto;
+    /* Espaciado externo */
+    max-width: 1200px;
+    /* Ancho máximo para el contenedor */
+    margin: -px auto 0;
+}
